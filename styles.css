@@ -1,1 +1,20 @@
 /* your code */
+.main{
+	overflow-x:auto;
+}
+.tableone{
+	border-collapse: collapse;
+	border:1px solid black;
+	width:100%;
+}
+th{
+	background-color:blue;
+	color:white;
+}
+th,td{
+	text-align:center;
+	padding:5px;
+}
+tr:nth-child(even){
+	background-color:cyan;
+}
